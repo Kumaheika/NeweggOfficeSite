@@ -1,0 +1,198 @@
+.video {
+  height: auto;
+  width:auto;
+  opacity: 0.5;
+  cursor: pointer;
+}
+.video:hover {
+  transition: opacity 1s;
+  opacity: 1;
+}
+.bg01 {
+    margin-bottom: 0;
+    font-size: 50px;
+    color: #FDFDFD;
+    background: url('../image/011.png') center no-repeat;
+    background-size: 100% auto;
+}
+.banner01{
+  position: relative;
+  padding: 20px 25px;
+  margin-bottom: 0;
+  background-color: #FDFDFD;
+}
+.banner01 p {
+  font-size: 16px;
+  line-height: 30px;
+}
+.banner01:after {
+    content: "";
+    position: absolute;
+    z-index: 3;
+    bottom: -15px;
+    left: 50%;
+    border-width: 15px 15px 0;
+    border-style: solid;
+    border-color: #FDFDFD transparent;
+    display: block;
+    width: 0;
+}
+.banner02{
+  position: relative;
+  padding: 20px 25px;
+  margin-bottom: -15px;
+  font-size: 50px;
+  color: #FDFDFD;
+  background: url('../image/012.png') center no-repeat;
+  background-size: cover;
+}
+.banner02:after {
+    content: "";
+    position: absolute;
+    z-index: 4;
+    bottom: -15px;
+    left: 50%;
+    border-width: 15px 15px 0;
+    border-style: solid;
+    border-color: #1f1f1f transparent;
+    display: block;
+    width: 0;
+}
+.logoPic {
+  padding: 5px;
+}
+.featurePic{
+  width: 160px;
+  height: auto;
+  margin: 10px;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+    width: 70%;
+    margin: auto;
+}
+.carousel-caption {
+  color: #4A4A4A;
+  text-shadow: none;
+  text-align: center;
+  opacity: .7;
+  line-height: 30px
+}
+.carousel-control.left {
+  background: url('../image/008.png');
+}
+.carousel-control.right {
+  background: url('../image/008.png');
+}
+
+.arrow_right {
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  width: 40px;
+  height: 40px;
+  margin-left: -10px; //微調中心點，讓按鈕置中
+  margin-top: -10px;
+  background-image: url("../image/arrow01.png");
+}
+
+.arrow_left {
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  width: 40px;
+  height: 40px;
+  margin-left: -10px; //微調中心點，讓按鈕置中
+  margin-top: -10px;
+  background-image: url("../image/arrow02.png");
+}
+.banner03{
+  position: relative;
+  padding: 20px 25px;
+  margin-bottom: -15px;
+  font-size: 50px;
+  color: #FDFDFD;
+  background: url('../image/013.png') center no-repeat;
+  background-size: cover;
+}
+.bg02 {
+    margin-bottom: 0;
+    font-size: 50px;
+    color: #4A4A4A;
+    background: url('../image/008.png') top repeat;
+    background-size: 100% auto;
+}
+.banner04{
+  position: relative;
+  padding: 20px 25px;
+  margin-bottom: -15px;
+  font-size: 50px;
+  color: #FDFDFD;
+  background: url('../image/014.png') top no-repeat;
+  background-size: cover;
+}
+.banner04 p {
+  font-size: 16px;
+  line-height: 30px;
+  padding: 0 10%;
+}
+.carousel-indicators .active {
+  background-color: #808080;
+}
+.carousel-indicators li {
+  border: 1px solid #808080;
+}
+.input01 {
+  text-align: left;
+}
+.form-control {
+  border-radius: 0;
+}
+.freeTrialBtn {
+  float: right;
+  margin: 40px 0 50px 0;
+}
+.jumbotron dl a {
+  color: #4A4A4A;
+  font-weight: normal;
+  text-decoration: none;
+}
+.jumbotron dl a:hover {
+  color: #4A90E2;
+}
+.jumbotron {
+  margin-bottom: 0px;
+}
+.footer {
+  position: static;
+  bottom: 0;
+  height: 40px;
+  text-align: center;
+  vertical-align: middle;
+  padding: 10px;
+  width: 100%;
+  font-size: 12px;
+  color: #ffffff;
+  background-color: #2E2E2E;
+}
+@media only screen and (max-width: 1440px) {
+  .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+      width: 70%;
+      height: 240px;
+      margin: auto;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+      width: 70%;
+      height: 280px;
+      margin: auto;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .carousel-inner > .item > img, .carousel-inner > .item > a > img {
+      width: 70%;
+      height: 370px;
+      margin: auto;
+  }
+}
